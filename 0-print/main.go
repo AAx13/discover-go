@@ -9,9 +9,9 @@ func main() {
 	p := fmt.Println
 	p("Hello, we are Holberton School")
 	time := time.Now()
-	p("The date is", time)
+	p("the date is", time)
 
-	p("The year is", time.Year())
-	p("The month is", time.Month())
-	p("The day is", time.Day())
+	p("the year is", time.Year())
+	p("the month is", time.Month())
+	p("the day is", time.Day())
 }
